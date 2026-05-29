@@ -7,6 +7,7 @@ Use this repo as the source of truth no matter where work happens: Mac, Dell, ph
 ## Start Here
 
 - Main control repo: https://github.com/ombudslash/AI-ORQUESTRA
+- Dell Codex handoff: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_CODEX_HANDOFF.md
 - ENCORE repo: https://github.com/ombudslash/ENCORE
 - Connector test repo: https://github.com/ombudslash/manus-github-connector-test
 
@@ -78,6 +79,7 @@ Current Dell-visible workspace:
 - ENCORE / EGBS case operations: https://github.com/ombudslash/ENCORE
 - Dell remote Codex setup: configured for coding, browser control, computer use, MCP, and no-sleep AC power.
 - Cross-device visibility: this README is the shared project map.
+- Dell handoff: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_CODEX_HANDOFF.md
 
 ## What Belongs Here
 
