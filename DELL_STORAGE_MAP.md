@@ -13,9 +13,25 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 
 - AI-ORQUESTRA checkout: `C:\Users\ezequ\My Drive\AI-ORQUESTRA`
 - Private ENCORE context checkout: `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\ENCORE_UMBRELLA_CONTEXT`
+- Connector test checkout: `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\manus-github-connector-test`
 - ENCORE local root: `C:\Users\ezequ\My Drive\ENCORE`
 - EGBS case operations workspace: `C:\Users\ezequ\My Drive\ENCORE\egbs-caseops`
 - ENCORE generated reports: `C:\Users\ezequ\My Drive\ENCORE\egbs-caseops\data\reports`
+
+## Dell Input And Control State
+
+- Keyboard target state: English United States with US QWERTY.
+- Verified user keyboard preload: `00000409`.
+- Verified default input override: `0409:00000409`.
+- Verified user language profile: `en-US`.
+- Local punctuation smoke test passed exactly: `keyboard test: []{} ;:'",.<>/?\| @#$%^&*()`
+- Avoid complex command typing through Chrome Remote Desktop unless this smoke test still passes.
+
+## Currently Visible Dell Storage
+
+- Internal Windows drive: `C:\`
+- WD Elements / WD External: `D:\`
+- Google Drive mount: `G:\`
 
 ## ENCORE Durable Outputs Currently Mapped
 
@@ -36,7 +52,7 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 
 ## Current Blockers
 
-- WD Elements is not always mounted; reconnect it before continuing WD video copy/hash work.
+- WD Elements is currently visible as `D:\`, but it is removable; verify it before continuing WD video copy/hash work.
 - iCloud EGBS folder is visible on Windows but currently materializes folder shells only, with 0 readable files under the locked EGBS tree.
 - ENCORE is visible to authenticated Git, but the local ENCORE tree has not been committed in this Dell workspace yet.
 - Private ENCORE context is intentionally kept in `.private/`, which is ignored by Git so it cannot be pushed into public AI-ORQUESTRA.
