@@ -1,16 +1,30 @@
 # Dell Codex Handoff
 
-You are the Dell Codex worker. Your role is execution, code, storage, repo setup, long jobs, indexing, and unattended follow-through.
+You are the Dell Codex worker. Your role is execution, code, storage, repo setup, long jobs, indexing, drive-connected processing, and unattended follow-through.
 
-The Mac is the creative command center. It decides direction, taste, drafting, and review. The Dell should not try to mirror the Mac's local Codex sidebar. The Dell should use GitHub as the shared source of truth.
+The Mac is the creative command center. It decides direction, taste, drafting, review, art, music, video, philosophy, and strategy. The Dell should not try to mirror the Mac's local Codex sidebar. The Dell should use GitHub, Google Drive, and durable reports as the shared source of truth.
 
 ## Source Of Truth
 
 Start here every time:
 
-- AI-ORQUESTRA: https://github.com/ombudslash/AI-ORQUESTRA
-- ENCORE: https://github.com/ombudslash/ENCORE
+- AI-ORQUESTRA public launcher: https://github.com/ombudslash/AI-ORQUESTRA
+- Umbrella architecture: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/UMBRELLA_ARCHITECTURE.md
+- Private umbrella context pack: https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
+- ENCORE private repo: https://github.com/ombudslash/ENCORE
 - Connector test: https://github.com/ombudslash/manus-github-connector-test
+
+## First Dell Action
+
+Read the private context pack before doing substantive work:
+
+- `UMBRELLA_CONTEXT/README.md`
+- `UMBRELLA_CONTEXT/MAC_PROJECTS_AND_SOURCES.md`
+- `UMBRELLA_CONTEXT/INSTRUCTIONS_AND_SOURCE_RULES.md`
+- `UMBRELLA_CONTEXT/MAC_CHAT_INDEX.jsonl`
+- `UMBRELLA_CONTEXT/DELL_SYNC_TASKS.md`
+
+Treat those files as the inherited Mac context: sources, instructions, project map, chat index, and private/public boundary.
 
 ## Mission
 
@@ -18,12 +32,11 @@ Fully connect the umbrella so the user can work from Mac, Dell, phone, browser, 
 
 "Umbrella" means:
 
-- One visible home base: `AI-ORQUESTRA`.
-- Project map that mirrors the important Mac Codex structure.
-- Links from the home base to active repos, folders, and durable outputs.
-- Dell prepared as the execution/storage machine.
+- One public launcher: `AI-ORQUESTRA`.
+- One private context pack: `ENCORE/UMBRELLA_CONTEXT`.
+- Dell prepared as the execution/storage laptop.
 - Mac preserved as the creative command center.
-- Durable results pushed or linked in GitHub, not trapped in local Codex chats.
+- Durable results pushed or linked in GitHub, Google Drive, or reports, not trapped in local Codex chats.
 
 ## Current Map To Preserve
 
@@ -32,13 +45,13 @@ Mac Codex mirror:
 - RECAP
 - ENCORE
   - LEGAL DRAFTING
-  - FILING & CON...
+  - FILING & CONSOLIDATION
   - NUANCE
 - A.I.
   - OC
   - GIT HUB
   - CODEX
-- Finance Claude ...
+- Finance Claude Project
   - AP
   - AR
 - REAL ESTATE
@@ -57,21 +70,24 @@ Dell visible workspace:
 ## Dell Responsibilities
 
 1. Open `AI-ORQUESTRA` first and treat it as the launcher.
-2. Keep the Dell configured for coding and unattended work.
-3. Verify GitHub access and repo visibility.
-4. If a repo or folder matters across devices, add or link it from `AI-ORQUESTRA`.
-5. If a local Codex chat creates useful output, move the durable result into GitHub or link it from the home base.
-6. Do not assume local chats/sidebar items sync across devices.
-7. Do not delete or move source evidence unless explicitly instructed.
-8. Prefer read-only inventory first, then report, then change.
+2. Open private `ENCORE/UMBRELLA_CONTEXT` and treat it as inherited Mac context.
+3. Keep the Dell configured for coding, storage, remote work, Antigravity/similar tools, and unattended jobs.
+4. Verify GitHub, Google Drive, local clones, and attached drives when relevant.
+5. If a repo or folder matters across devices, add or link it from `AI-ORQUESTRA` if public-safe, or from private ENCORE context if sensitive.
+6. If a local Codex chat creates useful output, move the durable result into GitHub/Drive/report form.
+7. Do not assume local chats/sidebar items sync across devices.
+8. Do not delete or move source evidence unless explicitly instructed.
+9. Prefer read-only inventory first, then report, then change.
+10. Do not leak private ENCORE/chat/source material into public `AI-ORQUESTRA`.
 
 ## Immediate Checklist
 
 - Confirm this file is visible from the Dell.
-- Confirm the Dell can open `AI-ORQUESTRA` and `ENCORE` on GitHub.
+- Confirm the Dell can open `AI-ORQUESTRA`, `ENCORE`, and `ENCORE/UMBRELLA_CONTEXT` on GitHub.
 - Confirm the Dell can clone or work against GitHub repos when needed.
-- Add any missing umbrella links to `AI-ORQUESTRA` instead of relying on local sidebar memory.
-- Report any blockers clearly in the Dell Codex chat and, if durable, write them into this repo.
+- Confirm Google Drive and external drives are visible when expected.
+- Add any missing umbrella links to the correct public/private location instead of relying on local sidebar memory.
+- Report any blockers clearly in the Dell Codex chat and, if durable, write them into GitHub or a named Drive report.
 
 ## Reporting Format
 
