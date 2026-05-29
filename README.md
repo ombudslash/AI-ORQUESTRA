@@ -7,6 +7,7 @@ Use this repo as the public-safe launcher no matter where work happens: Mac, Del
 ## Start Here
 
 - Main control repo: https://github.com/ombudslash/AI-ORQUESTRA
+- Umbrella operating plan: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/UMBRELLA_OPERATING_PLAN.md
 - Umbrella architecture: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/UMBRELLA_ARCHITECTURE.md
 - Dell Codex handoff: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_CODEX_HANDOFF.md
 - Dell storage map: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_STORAGE_MAP.md
@@ -33,7 +34,7 @@ The full Mac context bridge is private:
 
 - https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
 
-That folder carries the Mac project/source map, instructions, source rules, Dell sync tasks, and Mac chat index. Do not copy sensitive ENCORE/private chat/source details into this public repo.
+That folder carries the Mac project/source map, instructions, source rules, Dell sync tasks, remote-control notes, and Mac chat index. Do not copy sensitive ENCORE/private chat/source details into this public repo.
 
 ## Mac Codex Mirror
 
@@ -84,6 +85,7 @@ Current Dell-visible workspace:
 3. Use the Dell for code, storage, long scans, repo setup, drive work, and unattended processing.
 4. Push durable outputs to GitHub or Drive reports.
 5. Treat local Codex chats as temporary work sessions unless the result is saved or linked here.
+6. Do not push complex shell commands through Chrome Remote Desktop if punctuation mapping is unstable; ask Dell Codex to execute locally or use GitHub scripts instead.
 
 ## Active Work
 
