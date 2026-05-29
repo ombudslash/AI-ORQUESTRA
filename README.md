@@ -2,28 +2,38 @@
 
 This is the single cross-device home base for Codex work.
 
-Use this repo as the source of truth no matter where work happens: Mac, Dell, phone, browser, or cloud.
+Use this repo as the public-safe launcher no matter where work happens: Mac, Dell, phone, browser, or cloud.
 
 ## Start Here
 
 - Main control repo: https://github.com/ombudslash/AI-ORQUESTRA
+- Umbrella architecture: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/UMBRELLA_ARCHITECTURE.md
 - Dell Codex handoff: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_CODEX_HANDOFF.md
 - Dell storage map: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_STORAGE_MAP.md
+- Private context pack: https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
 - ENCORE repo: https://github.com/ombudslash/ENCORE
 - Connector test repo: https://github.com/ombudslash/manus-github-connector-test
 
 ## Core Rule
 
-Codex sidebars and chats can look different on each device. GitHub is the shared layer.
+Codex sidebars and chats can look different on each device. GitHub plus durable reports are the shared layer.
 
-If something needs to be visible everywhere, put it here or link it from here.
+If something needs to be visible everywhere, put it in GitHub/Drive/report form or link it from here.
 
 ## Device Roles
 
-- Mac: creative command center, planning, writing, review, taste, and full local project context.
-- Dell: NPC worker for code execution, remote runs, storage, long jobs, indexing, and unattended tasks.
-- Phone/browser: quick inspection, links, repo status, and lightweight edits.
+- Mac: creative command center for direction, review, planning, writing, videos, music, art, philosophy, strategy, and taste.
+- Dell: worker/storage laptop for drives, GitHub, Google Drive, Codex, Antigravity, code processing, indexing, scans, builds, tests, and unattended jobs.
+- Phone/browser: quick inspection, links, repo status, reports, and lightweight direction.
 - Cloud: backup execution layer when local machines are inconvenient.
+
+## Private Context
+
+The full Mac context bridge is private:
+
+- https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
+
+That folder carries the Mac project/source map, instructions, source rules, Dell sync tasks, and Mac chat index. Do not copy sensitive ENCORE/private chat/source details into this public repo.
 
 ## Mac Codex Mirror
 
@@ -34,7 +44,7 @@ This mirrors the important Mac sidebar structure so the Dell can see the same wo
 - RECAP
 - ENCORE
   - LEGAL DRAFTING
-  - FILING & CON...
+  - FILING & CONSOLIDATION
   - NUANCE
 - A.I.
   - OC
@@ -43,7 +53,7 @@ This mirrors the important Mac sidebar structure so the Dell can see the same wo
 
 ### Projects
 
-- Finance Claude ...
+- Finance Claude Project
   - AP
   - AR
 - REAL ESTATE
@@ -71,25 +81,25 @@ Current Dell-visible workspace:
 
 1. Open this repo first on every device.
 2. Use the Mac for creative direction, drafting, review, and deciding what matters.
-3. Use the Dell for code, storage, long scans, repo setup, and unattended work.
-4. Push durable outputs to GitHub.
+3. Use the Dell for code, storage, long scans, repo setup, drive work, and unattended processing.
+4. Push durable outputs to GitHub or Drive reports.
 5. Treat local Codex chats as temporary work sessions unless the result is saved or linked here.
 
 ## Active Work
 
 - ENCORE / EGBS case operations: https://github.com/ombudslash/ENCORE
+- Private umbrella context pack: https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
 - Dell execution/storage map: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_STORAGE_MAP.md
 - Dell remote Codex setup: configured for coding, browser control, computer use, MCP, and no-sleep AC power.
-- Cross-device visibility: this README is the shared project map.
-- Dell handoff: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_CODEX_HANDOFF.md
+- Cross-device visibility: this repo is the shared launcher; private ENCORE context is the inherited brain.
 
 ## What Belongs Here
 
-- Links to active repos and folders.
-- Current project map.
+- Safe links to active repos and folders.
+- Current public project map.
 - Device roles.
 - Handoff notes between Mac and Dell.
-- Anything that must be visible from phone, Dell, Mac, and browser.
+- Non-sensitive status that must be visible from phone, Dell, Mac, and browser.
 
 ## What Does Not Need To Match
 
@@ -98,4 +108,4 @@ Current Dell-visible workspace:
 - Local thread history.
 - Machine-specific paths.
 
-Those are local launchers. This repo is the shared brain.
+Those are local launchers. This repo is the shared public doorway.
