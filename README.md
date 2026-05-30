@@ -73,6 +73,8 @@ This mirrors the important Mac sidebar structure so the Dell can see the same wo
 
 Dell Codex must mirror Mac Codex operationally until Dell is the only execution Codex. The native sidebar does not have to look identical, but every Mac project, source, instruction layer, connector, and usable chat-history export must be available from Dell.
 
+Latest Dell status: project parity verified with cautions in `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md` at `2026-05-29T19:50:00-06:00`. Mac Codex remains installed until the final cautions are explicitly accepted or cleared.
+
 Current Dell-visible workspace:
 
 - egbs-case... / ENCO...
@@ -110,9 +112,9 @@ Current Dell-visible workspace:
 
 ## Connector Parity
 
-Dell must verify or report blockers for GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity or similar coding software.
+Dell verified the main project/source mirror plus GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity in the latest private report. Recheck app/plugin availability at the start of each Dell session because connector exposure can drift.
 
-Mac Codex must not be deleted until `DELL_PROJECT_ACCESS_VERIFICATION.md` says Dell-only cutover is safe.
+Mac Codex must not be deleted until the remaining cutover cautions are explicitly accepted or cleared.
 
 ## What Does Not Need To Match
 
