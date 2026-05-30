@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-05-29T21:08:43-0600 America/Edmonton
+Last updated: 2026-05-29T23:43:34-0600 America/Edmonton
 
 ## Current State
 
@@ -26,7 +26,7 @@ Verified from the latest Dell-side report:
 
 ## Mac Codex Mirror Refresh
 
-The private Mac Codex portable mirror was refreshed from the Mac at `2026-05-30T04:51:50Z`.
+The private Mac Codex portable mirror was refreshed from the Mac at `2026-05-30T05:43:34Z`.
 
 Current mirror proof:
 
