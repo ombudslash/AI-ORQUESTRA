@@ -36,6 +36,28 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 - Mac chat index: `session_index.jsonl` and `SESSION_TITLES.md`
 - Raw transcripts: `sessions\` and `archived_sessions\`
 
+## Project Source Mirror
+
+These are Drive-readable landing zones for Mac Codex project labels that were not exact Dell sidebar folders during first verification. They are additive mirrors/pointers; originals stay in place.
+
+- Expected Dell root: `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
+- Mirror manifest: `README.md`
+- Finance Claude Project: `PROJECT_SOURCE_MIRROR\Finance Claude Project`
+- Finance AP lane: `PROJECT_SOURCE_MIRROR\Finance Claude Project\AP`
+- Finance AR lane: `PROJECT_SOURCE_MIRROR\Finance Claude Project\AR`
+- Audio reports mirror: `PROJECT_SOURCE_MIRROR\AUDIO`
+- Real estate pointer mirror: `PROJECT_SOURCE_MIRROR\REAL ESTATE`
+
+Shared Real Estate landing folders now exist directly in Drive:
+
+- `C:\Users\ezequ\My Drive\REAL ESTATE\OPS`
+- `C:\Users\ezequ\My Drive\REAL ESTATE\9PW SUITE`
+
+Music roots verified earlier still matter:
+
+- `D:\Music`
+- `D:\Music Production & DJing`
+
 ## Currently Visible Dell Storage
 
 - Internal Windows drive: `C:\`
@@ -65,6 +87,7 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 - iCloud EGBS folder is visible on Windows but currently materializes folder shells only, with 0 readable files under the locked EGBS tree.
 - ENCORE is visible to authenticated Git, but the local ENCORE tree has not been committed in this Dell workspace yet.
 - Private ENCORE context is intentionally kept in `.private/`, which is ignored by Git so it cannot be pushed into public AI-ORQUESTRA.
+- First Dell parity verification found missing exact folders for Finance Claude Project, AP, AR, OPS, 9PW SUITE, and AUDIO. New landing zones above must be reverified from Dell after Google Drive sync.
 - Do not move, delete, or rename evidence files without explicit instruction.
 
 ## Connector And Tool Parity To Verify
