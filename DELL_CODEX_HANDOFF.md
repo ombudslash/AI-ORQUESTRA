@@ -23,6 +23,8 @@ Read the private context pack before doing substantive work:
 - `UMBRELLA_CONTEXT/INSTRUCTIONS_AND_SOURCE_RULES.md`
 - `UMBRELLA_CONTEXT/MAC_CHAT_INDEX.jsonl`
 - `UMBRELLA_CONTEXT/DELL_SYNC_TASKS.md`
+- `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`
+- `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`
 
 Treat those files as the inherited Mac context: sources, instructions, project map, chat index, and private/public boundary.
 
@@ -37,6 +39,7 @@ Fully connect the umbrella so the user can work from Mac, Dell, phone, browser, 
 - Dell prepared as the execution/storage laptop.
 - Mac preserved as the creative command center.
 - Durable results pushed or linked in GitHub, Google Drive, or reports, not trapped in local Codex chats.
+- Mac Codex portable mirror readable from Dell until Dell-only cutover is safe.
 
 ## Current Map To Preserve
 
@@ -55,6 +58,7 @@ Mac Codex mirror:
   - AP
   - AR
 - REAL ESTATE
+  - OPS
   - 9PW SUITE
 - AUDIO
   - MUSIC
@@ -82,10 +86,15 @@ Dell visible workspace:
 
 ## Immediate Checklist
 
+- Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`.
+- Verify the portable Mac Codex mirror at `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest`.
+- Update `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
+- Keep Dell-only cutover marked `NO` until every required item is verified.
 - Confirm this file is visible from the Dell.
 - Confirm the Dell can open `AI-ORQUESTRA`, `ENCORE`, and `ENCORE/UMBRELLA_CONTEXT` on GitHub.
 - Confirm the Dell can clone or work against GitHub repos when needed.
 - Confirm Google Drive and external drives are visible when expected.
+- Confirm connector/tool parity: GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity/similar coding tools.
 - Add any missing umbrella links to the correct public/private location instead of relying on local sidebar memory.
 - Report any blockers clearly in the Dell Codex chat and, if durable, write them into GitHub or a named Drive report.
 
