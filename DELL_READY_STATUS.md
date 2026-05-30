@@ -89,7 +89,14 @@ Do not copy the remaining 93.53 GB videos until the user explicitly decides to s
 Safe next worker action:
 
 1. Keep Mac Codex installed until cutover cautions are accepted.
-2. Hash/verify the already-copied large video.
-3. Refresh the preservation register/report.
+2. Run the Dell-local WD hash worker packet from `ENCORE/UMBRELLA_CONTEXT`.
+3. Hash/verify the already-copied large video and refresh the preservation register/report.
 4. Leave the three uncopied large videos as pending decision.
 5. Write durable status when complete.
+
+Prepared Dell worker packet:
+
+- `ENCORE/UMBRELLA_CONTEXT/DELL_WD_HASH_TASK.md`
+- `ENCORE/UMBRELLA_CONTEXT/DELL_WD_HASH_LARGE_VIDEO.ps1`
+- `ENCORE/UMBRELLA_CONTEXT/DELL_WD_HASH_LARGE_VIDEO.ps1.txt`
+- `ENCORE/UMBRELLA_CONTEXT/RUN_DELL_WD_HASH.cmd`
