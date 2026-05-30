@@ -1,8 +1,8 @@
 # Dell Ready Status
 
-Status: REVERIFY AFTER PROJECT MIRROR LANDING ZONES
+Status: PROJECT PARITY VERIFIED WITH CAUTIONS
 
-Dell-only cutover safe: NO until Dell re-runs the private verification report and confirms every item below on the Dell filesystem.
+Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
 Last updated: 2026-05-29 America/Edmonton
 
@@ -10,19 +10,20 @@ Last updated: 2026-05-29 America/Edmonton
 
 Dell is active as the worker/storage laptop for AI-ORQUESTRA and ENCORE umbrella setup. The durable source of truth is GitHub plus Google Drive, not native Codex sidebar sync.
 
-Verified from the last Dell-side report:
+Verified from the latest Dell-side report:
 
 - AI-ORQUESTRA public launcher is visible locally and in Git.
 - Private ENCORE umbrella context is visible in the private checkout.
 - Portable Mac Codex mirror is visible from the Dell Google Drive workspace.
 - Dell can read Mac Codex config, AGENTS instructions, session index, session titles, and raw transcript folders.
-- WD drive, Google Drive, keyboard/input, Git, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
+- Project source mirror is visible from Dell, including Finance Claude Project, AP, AR, AUDIO, REAL ESTATE / OPS, and REAL ESTATE / 9PW SUITE.
+- WD drive, Google Drive, keyboard/input, Git, GitHub connector, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
 - WD preservation state remains partially complete.
 
-## New Landing Zones To Reverify
+## Project Parity Verified On Dell
 
-Google Drive now contains exact project landing zones for the Mac-only/sidebar labels that were previously unresolved:
+Dell verified these landing zones in `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md` at `2026-05-29T19:50:00-06:00` on `DESKTOP-SHHN4FP`:
 
 - `AI-ORQUESTRA/.private/PROJECT_SOURCE_MIRROR`
 - `PROJECT_SOURCE_MIRROR/Finance Claude Project`
@@ -32,19 +33,19 @@ Google Drive now contains exact project landing zones for the Mac-only/sidebar l
 - `REAL ESTATE/OPS`
 - `REAL ESTATE/9PW SUITE`
 
-Expected Dell paths:
+Dell paths:
 
 - `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
 - `C:\Users\ezequ\My Drive\REAL ESTATE\OPS`
 - `C:\Users\ezequ\My Drive\REAL ESTATE\9PW SUITE`
 
-## Required Before Ready
+## Remaining Cutover Cautions
 
-- Dell re-runs `ENCORE/UMBRELLA_CONTEXT/DELL_NEXT_TASK.md`.
-- Dell updates `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md` after checking the new landing zones locally.
-- Every Mac sidebar item in `DELL_PROJECT_PARITY.md` has a Dell path, repo, connector, or explicit accepted blocker.
-- All connector/tool requirements are verified or deliberately downgraded with blockers recorded.
-- Dell can continue worker tasks without depending on Mac Codex-only local state.
+- Dell-only cutover is not automatic; it needs explicit acceptance of the remaining cautions.
+- GitHub CLI `gh` is not installed. Git remotes and the GitHub connector work, so this is only a blocker if CLI workflows are required.
+- iCloud EGBS is still a Windows materialization problem; use Google Drive/ENCORE as the working source.
+- WD drive paths are removable and must be rechecked before any WD copy/hash job.
+- Native Codex sidebar/chat UI is not treated as synced state. The portable mirror plus GitHub/Drive files are the source of truth.
 
 ## Remaining WD Work
 
@@ -60,7 +61,7 @@ Do not copy the remaining 93.53 GB videos until the user explicitly decides to s
 
 Safe next worker action:
 
-1. Reverify the new project mirror landing zones.
+1. Keep Mac Codex installed until cutover cautions are accepted.
 2. Hash/verify the already-copied large video.
 3. Refresh the preservation register/report.
 4. Leave the three uncopied large videos as pending decision.

@@ -85,9 +85,9 @@ Dell visible workspace:
 9. Prefer read-only inventory first, then report, then change.
 10. Do not leak private ENCORE/chat/source material into public `AI-ORQUESTRA`.
 
-## Project Source Mirror To Recheck
+## Project Source Mirror Verified
 
-The first Dell parity report found exact-folder blockers for Finance Claude Project, AP, AR, OPS, 9PW SUITE, and AUDIO. These Drive landing zones now exist and must be verified from Dell:
+Dell verified these Drive landing zones locally on `DESKTOP-SHHN4FP` in `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md` at `2026-05-29T19:50:00-06:00`:
 
 - `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
 - `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR\Finance Claude Project`
@@ -100,15 +100,14 @@ The first Dell parity report found exact-folder blockers for Finance Claude Proj
 ## Immediate Checklist
 
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`.
-- Verify the portable Mac Codex mirror at `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest`.
-- Verify the project source mirror at `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`.
-- Update `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
-- Keep Dell-only cutover marked `NO` until every required item is verified.
+- Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
+- Treat the portable Mac Codex mirror and project source mirror as verified unless a later report says otherwise.
+- Keep Dell-only cutover marked `NO` until the remaining cautions are explicitly accepted or cleared.
 - Confirm this file is visible from the Dell.
 - Confirm the Dell can open `AI-ORQUESTRA`, `ENCORE`, and `ENCORE/UMBRELLA_CONTEXT` on GitHub.
 - Confirm the Dell can clone or work against GitHub repos when needed.
 - Confirm Google Drive and external drives are visible when expected.
-- Confirm connector/tool parity: GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity/similar coding tools.
+- Recheck connector/tool parity when starting a new Dell session: GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity/similar coding tools.
 - Add any missing umbrella links to the correct public/private location instead of relying on local sidebar memory.
 - Report any blockers clearly in the Dell Codex chat and, if durable, write them into GitHub or a named Drive report.
 

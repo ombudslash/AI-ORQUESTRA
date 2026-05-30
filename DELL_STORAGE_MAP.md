@@ -40,6 +40,8 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 
 These are Drive-readable landing zones for Mac Codex project labels that were not exact Dell sidebar folders during first verification. They are additive mirrors/pointers; originals stay in place.
 
+Dell verified this mirror locally on `DESKTOP-SHHN4FP` in `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md` at `2026-05-29T19:50:00-06:00`.
+
 - Expected Dell root: `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
 - Mirror manifest: `README.md`
 - Finance Claude Project: `PROJECT_SOURCE_MIRROR\Finance Claude Project`
@@ -87,21 +89,13 @@ Music roots verified earlier still matter:
 - iCloud EGBS folder is visible on Windows but currently materializes folder shells only, with 0 readable files under the locked EGBS tree.
 - ENCORE is visible to authenticated Git, but the local ENCORE tree has not been committed in this Dell workspace yet.
 - Private ENCORE context is intentionally kept in `.private/`, which is ignored by Git so it cannot be pushed into public AI-ORQUESTRA.
-- First Dell parity verification found missing exact folders for Finance Claude Project, AP, AR, OPS, 9PW SUITE, and AUDIO. New landing zones above must be reverified from Dell after Google Drive sync.
 - Do not move, delete, or rename evidence files without explicit instruction.
 
-## Connector And Tool Parity To Verify
+## Connector And Tool Parity
 
-- GitHub/git CLI
-- Google Drive
-- Gmail
-- Notion
-- Browser plugin
-- Chrome plugin
-- Computer use plugin
-- Documents, Spreadsheets, Presentations
-- Legal, Data, Engineering, Productivity skills
-- Antigravity or similar coding software
+Latest Dell report verified Git, GitHub connector, Google Drive, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, Midpage Legal Research, local engineering runtimes, and Antigravity.
+
+Recheck these at the start of any new Dell session because app/plugin availability can drift.
 
 ## Operating Notes
 
