@@ -63,13 +63,15 @@ OS-level Dell-to-Mac SSH was already verified. The current missing piece is the 
 
 ## Expected Proof
 
-The current cutover gate is not done until this private file exists:
+The current cutover gate is not done until all three private reports exist:
 
 ```text
+DELL_CODEX_SSH_CONNECTION_LAST_RUN.md
 DELL_WD_HASH_LAST_RUN.md
+DELL_MIRROR_GATES_LAST_RUN.md
 ```
 
-Mac Codex should not be deleted until the cutover audit is updated after that result is reviewed.
+Mac Codex should not be deleted until the cutover audit is updated after those results are reviewed.
 
 ## Mirror Freshness
 
@@ -80,3 +82,5 @@ C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest\MIRROR_MAN
 ```
 
 That manifest is the current proof that Mac Codex config, instructions, chat index, and raw transcripts were copied into the private mirror.
+
+Latest refresh from Mac: `2026-05-30T06:31:27Z`.
