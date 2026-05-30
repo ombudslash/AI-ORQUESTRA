@@ -20,6 +20,18 @@ Read first:
 000_DELL_EXECUTE_NOW.txt
 ```
 
+Preferred Dell-local runner:
+
+```text
+RUN_DELL_MIRROR_GATES.cmd
+```
+
+Or run:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\My Drive\AI-ORQUESTRA\.private\ENCORE_UMBRELLA_CONTEXT\UMBRELLA_CONTEXT\RUN_DELL_MIRROR_GATES.ps1"
+```
+
 For the immediate Mac SSH connection values, read:
 
 ```text
