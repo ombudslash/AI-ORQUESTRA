@@ -107,8 +107,11 @@ Dell-to-Mac SSH is verified from `DESKTOP-SHHN4FP`.
 - Alias target: `mac-fabians-mbp`
 - Codex UI: Settings > Connections > SSH has one green `mac-fabians-mbp` row.
 - Proof report: `UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
+- If the Codex UI row is missing, use `UMBRELLA_CONTEXT/DELL_SSH_VALUES.txt` and copy/paste locally on Dell.
 
 Use this bridge only for Mac-control tasks that truly need the Mac. The normal source of truth remains GitHub plus Google Drive.
+
+Mac-to-Dell direct shell control is not available from the Mac LAN check. SSH, SMB, RDP, and WinRM timed out from Mac to Dell; only Windows Delivery Optimization `7680` answered. Dell-side commands must run in Dell local Codex or Dell local shell.
 
 ## Immediate Checklist
 
