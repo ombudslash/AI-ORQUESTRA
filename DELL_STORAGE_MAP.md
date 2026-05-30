@@ -82,6 +82,7 @@ Music roots verified earlier still matter:
 - SHA-256 verified copied files: 14.
 - Copied large Giusti video awaiting SHA-256 verification: 1.
 - Large Giusti videos pending copy decision: 3 files, about 93.53 GB total.
+- Prepared Dell worker packet for the next safe gate: `ENCORE\UMBRELLA_CONTEXT\RUN_DELL_WD_HASH.cmd`.
 
 ## Current Blockers
 
