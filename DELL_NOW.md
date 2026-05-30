@@ -32,6 +32,13 @@ Or run:
 powershell -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\My Drive\AI-ORQUESTRA\.private\ENCORE_UMBRELLA_CONTEXT\UMBRELLA_CONTEXT\RUN_DELL_MIRROR_GATES.ps1"
 ```
 
+If the script extension is not materialized, use the text fallback:
+
+```powershell
+$scriptText = Get-Content -Raw "$env:USERPROFILE\My Drive\AI-ORQUESTRA\.private\ENCORE_UMBRELLA_CONTEXT\UMBRELLA_CONTEXT\RUN_DELL_MIRROR_GATES.ps1.txt"
+& ([ScriptBlock]::Create($scriptText))
+```
+
 For the immediate Mac SSH connection values, read:
 
 ```text
