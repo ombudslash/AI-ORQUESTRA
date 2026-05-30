@@ -40,6 +40,7 @@ Fully connect the umbrella so the user can work from Mac, Dell, phone, browser, 
 - Mac preserved as the creative command center.
 - Durable results pushed or linked in GitHub, Google Drive, or reports, not trapped in local Codex chats.
 - Mac Codex portable mirror readable from Dell until Dell-only cutover is safe.
+- Project source mirror readable from Dell for Mac-only labels that need exact shared landing zones.
 
 ## Current Map To Preserve
 
@@ -84,10 +85,23 @@ Dell visible workspace:
 9. Prefer read-only inventory first, then report, then change.
 10. Do not leak private ENCORE/chat/source material into public `AI-ORQUESTRA`.
 
+## Project Source Mirror To Recheck
+
+The first Dell parity report found exact-folder blockers for Finance Claude Project, AP, AR, OPS, 9PW SUITE, and AUDIO. These Drive landing zones now exist and must be verified from Dell:
+
+- `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
+- `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR\Finance Claude Project`
+- `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR\Finance Claude Project\AP`
+- `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR\Finance Claude Project\AR`
+- `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR\AUDIO`
+- `C:\Users\ezequ\My Drive\REAL ESTATE\OPS`
+- `C:\Users\ezequ\My Drive\REAL ESTATE\9PW SUITE`
+
 ## Immediate Checklist
 
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`.
 - Verify the portable Mac Codex mirror at `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest`.
+- Verify the project source mirror at `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`.
 - Update `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
 - Keep Dell-only cutover marked `NO` until every required item is verified.
 - Confirm this file is visible from the Dell.
