@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-05-30T00:07:40-0600 America/Edmonton
+Last updated: 2026-05-30T00:21:38-0600 America/Edmonton
 
 ## Current State
 
@@ -19,6 +19,7 @@ Verified from the latest Dell-side report:
 - Project source mirror is visible from Dell, including Finance Claude Project, AP, AR, AUDIO, REAL ESTATE / OPS, and REAL ESTATE / 9PW SUITE.
 - Dell-to-Mac OS SSH is verified from Dell, including the `mac-fabians-mbp` alias.
 - Dell Codex Settings > Connections > SSH profile visibility needs fresh proof; a later live screenshot showed no saved SSH connections visible.
+- Latest Mac attempt could claim the Chrome Remote Desktop tab but still saw a black remote canvas, and the Mac screen is currently locked. Remote UI setup is therefore unsafe from Mac automation.
 - Mac-to-Dell direct shell control is not available from the Mac LAN check: SSH, SMB, RDP, and WinRM timed out; only Windows Delivery Optimization `7680` answered.
 - WD drive, Google Drive, keyboard/input, Git, GitHub connector, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
@@ -110,7 +111,7 @@ The current private cutover audit is:
 
 Current decision: do not delete Mac Codex yet.
 
-Reason: Dell can work from the refreshed mirrored state, but Dell-only cutover still requires explicit acceptance or clearing of the remaining cautions.
+Reason: Dell can work from the refreshed mirrored state, but Dell-only cutover still requires explicit acceptance or clearing of the remaining cautions and fresh Dell-local proof reports.
 
 ## Remaining WD Work
 
