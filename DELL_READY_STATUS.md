@@ -17,8 +17,8 @@ Verified from the latest Dell-side report:
 - Portable Mac Codex mirror is visible from the Dell Google Drive workspace.
 - Dell can read Mac Codex config, AGENTS instructions, session index, session titles, and raw transcript folders.
 - Project source mirror is visible from Dell, including Finance Claude Project, AP, AR, AUDIO, REAL ESTATE / OPS, and REAL ESTATE / 9PW SUITE.
-- Dell-to-Mac SSH is verified from Dell, including the `mac-fabians-mbp` alias used by Dell Codex.
-- Dell Codex Settings > Connections > SSH shows one green `mac-fabians-mbp` row.
+- Dell-to-Mac OS SSH is verified from Dell, including the `mac-fabians-mbp` alias.
+- Dell Codex Settings > Connections > SSH profile visibility needs fresh proof; a later live screenshot showed no saved SSH connections visible.
 - Mac-to-Dell direct shell control is not available from the Mac LAN check: SSH, SMB, RDP, and WinRM timed out; only Windows Delivery Optimization `7680` answered.
 - WD drive, Google Drive, keyboard/input, Git, GitHub connector, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
@@ -75,6 +75,7 @@ Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`:
 
 - Direct target: `efd@192.168.40.34`
 - Alias target: `mac-fabians-mbp`
+- Current runner: `RUN_DELL_MIRROR_GATES.cmd` or `RUN_DELL_MIRROR_GATES.ps1.txt`
 - Result: `SSH_OK` and `SSH_ALIAS_OK`
 - Remote host: `Fabians-MBP.lan`
 - Remote user: `efd`
@@ -126,8 +127,8 @@ Safe next worker action:
 
 1. Keep Mac Codex installed until cutover cautions are accepted.
 2. Open `DELL_NOW.md`, then private `ENCORE/UMBRELLA_CONTEXT/000_DELL_EXECUTE_NOW.txt`.
-3. Run the Dell-local WD hash worker packet from `ENCORE/UMBRELLA_CONTEXT`.
-4. Hash/verify the already-copied large video and refresh the preservation register/report.
+3. Run `RUN_DELL_MIRROR_GATES.cmd` or the `RUN_DELL_MIRROR_GATES.ps1.txt` fallback from `ENCORE/UMBRELLA_CONTEXT`.
+4. Confirm it writes `DELL_CODEX_SSH_CONNECTION_LAST_RUN.md`, `DELL_WD_HASH_LAST_RUN.md`, and `DELL_MIRROR_GATES_LAST_RUN.md`.
 5. Leave the three uncopied large videos as pending decision.
 6. Write durable status when complete.
 
@@ -135,6 +136,10 @@ Prepared Dell worker packet:
 
 - `ENCORE/UMBRELLA_CONTEXT/000_DELL_EXECUTE_NOW.txt`
 - `ENCORE/UMBRELLA_CONTEXT/000_DELL_CODEX_PROMPT_NOW.md`
+- `ENCORE/UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES.cmd`
+- `ENCORE/UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES.ps1`
+- `ENCORE/UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES.ps1.txt`
+- `ENCORE/UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES_COMMAND.txt`
 - `ENCORE/UMBRELLA_CONTEXT/DELL_WD_HASH_TASK.md`
 - `ENCORE/UMBRELLA_CONTEXT/DELL_WD_HASH_COMMAND.txt`
 - `ENCORE/UMBRELLA_CONTEXT/DELL_WD_HASH_LARGE_VIDEO.ps1`
