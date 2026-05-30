@@ -25,6 +25,8 @@ Read the private context pack before doing substantive work:
 - `UMBRELLA_CONTEXT/DELL_SYNC_TASKS.md`
 - `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`
 - `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`
+- `UMBRELLA_CONTEXT/DELL_SSH_TO_MAC.md`
+- `UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
 
 Treat those files as the inherited Mac context: sources, instructions, project map, chat index, and private/public boundary.
 
@@ -97,6 +99,17 @@ Dell verified these Drive landing zones locally on `DESKTOP-SHHN4FP` in `ENCORE/
 - `C:\Users\ezequ\My Drive\REAL ESTATE\OPS`
 - `C:\Users\ezequ\My Drive\REAL ESTATE\9PW SUITE`
 
+## Dell-To-Mac SSH Verified
+
+Dell-to-Mac SSH is verified from `DESKTOP-SHHN4FP`.
+
+- Direct target: `efd@192.168.40.34`
+- Alias target: `mac-fabians-mbp`
+- Codex UI: Settings > Connections > SSH has one green `mac-fabians-mbp` row.
+- Proof report: `UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
+
+Use this bridge only for Mac-control tasks that truly need the Mac. The normal source of truth remains GitHub plus Google Drive.
+
 ## Immediate Checklist
 
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`.
@@ -105,6 +118,7 @@ Dell verified these Drive landing zones locally on `DESKTOP-SHHN4FP` in `ENCORE/
 - Keep Dell-only cutover marked `NO` until the remaining cautions are explicitly accepted or cleared.
 - Confirm this file is visible from the Dell.
 - Confirm the Dell can open `AI-ORQUESTRA`, `ENCORE`, and `ENCORE/UMBRELLA_CONTEXT` on GitHub.
+- Treat Dell-to-Mac SSH as already verified unless `DELL_SSH_TO_MAC_TEST.md` becomes stale or contradictory.
 - Confirm the Dell can clone or work against GitHub repos when needed.
 - Confirm Google Drive and external drives are visible when expected.
 - Recheck connector/tool parity when starting a new Dell session: GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity/similar coding tools.
