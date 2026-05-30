@@ -6,6 +6,8 @@ Dell worker target: `DESKTOP-SHHN4FP`
 
 Current priority: restore the Dell Codex SSH profile to the Mac, then run the private Dell WD hash gate and write the result report.
 
+Latest connect attempt: see `DELL_CONNECT_STATUS.md`. The Mac still cannot open a direct command channel into the Dell; the Chrome Remote Desktop canvas was black to automation while the session reported connected.
+
 ## Start Here
 
 Open the private umbrella context on the Dell:
