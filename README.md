@@ -11,6 +11,8 @@ Use this repo as the public-safe launcher no matter where work happens: Mac, Del
 - Umbrella architecture: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/UMBRELLA_ARCHITECTURE.md
 - Dell Codex handoff: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_CODEX_HANDOFF.md
 - Dell storage map: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_STORAGE_MAP.md
+- Dell readiness status: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_READY_STATUS.md
+- Dell project parity contract: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_PROJECT_PARITY.md
 - Private context pack: https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
 - ENCORE repo: https://github.com/ombudslash/ENCORE
 - Connector test repo: https://github.com/ombudslash/manus-github-connector-test
@@ -58,6 +60,7 @@ This mirrors the important Mac sidebar structure so the Dell can see the same wo
   - AP
   - AR
 - REAL ESTATE
+  - OPS
   - 9PW SUITE
 - AUDIO
   - MUSIC
@@ -68,7 +71,7 @@ This mirrors the important Mac sidebar structure so the Dell can see the same wo
 
 ## Dell Codex Mirror
 
-The Dell does not need the same sidebar. Its job is to execute.
+Dell Codex must mirror Mac Codex operationally until Dell is the only execution Codex. The native sidebar does not have to look identical, but every Mac project, source, instruction layer, connector, and usable chat-history export must be available from Dell.
 
 Current Dell-visible workspace:
 
@@ -91,6 +94,8 @@ Current Dell-visible workspace:
 
 - ENCORE / EGBS case operations: https://github.com/ombudslash/ENCORE
 - Private umbrella context pack: https://github.com/ombudslash/ENCORE/tree/main/UMBRELLA_CONTEXT
+- Private project access matrix: `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`
+- Private Mac Codex portable mirror: `AI-ORQUESTRA/.private/CODEX_MAC_MIRROR/latest` on Google Drive
 - Dell execution/storage map: https://github.com/ombudslash/AI-ORQUESTRA/blob/main/DELL_STORAGE_MAP.md
 - Dell remote Codex setup: configured for coding, browser control, computer use, MCP, and no-sleep AC power.
 - Cross-device visibility: this repo is the shared launcher; private ENCORE context is the inherited brain.
@@ -102,6 +107,12 @@ Current Dell-visible workspace:
 - Device roles.
 - Handoff notes between Mac and Dell.
 - Non-sensitive status that must be visible from phone, Dell, Mac, and browser.
+
+## Connector Parity
+
+Dell must verify or report blockers for GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity or similar coding software.
+
+Mac Codex must not be deleted until `DELL_PROJECT_ACCESS_VERIFICATION.md` says Dell-only cutover is safe.
 
 ## What Does Not Need To Match
 

@@ -27,6 +27,16 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 - Local punctuation smoke test passed exactly: `keyboard test: []{} ;:'",.<>/?\| @#$%^&*()`
 - Avoid complex command typing through Chrome Remote Desktop unless this smoke test still passes.
 
+
+## Mac Codex Portable Mirror
+
+- Expected Dell mirror path: `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest`
+- Manifest: `MIRROR_MANIFEST.md`
+- Mac config: `config.toml`
+- Mac instructions: `AGENTS.md`
+- Mac chat index: `session_index.jsonl` and `SESSION_TITLES.md`
+- Raw transcripts: `sessions\` and `archived_sessions\`
+
 ## Currently Visible Dell Storage
 
 - Internal Windows drive: `C:\`
@@ -57,6 +67,19 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 - ENCORE is visible to authenticated Git, but the local ENCORE tree has not been committed in this Dell workspace yet.
 - Private ENCORE context is intentionally kept in `.private/`, which is ignored by Git so it cannot be pushed into public AI-ORQUESTRA.
 - Do not move, delete, or rename evidence files without explicit instruction.
+
+## Connector And Tool Parity To Verify
+
+- GitHub/git CLI
+- Google Drive
+- Gmail
+- Notion
+- Browser plugin
+- Chrome plugin
+- Computer use plugin
+- Documents, Spreadsheets, Presentations
+- Legal, Data, Engineering, Productivity skills
+- Antigravity or similar coding software
 
 ## Operating Notes
 
