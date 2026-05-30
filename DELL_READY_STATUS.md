@@ -1,44 +1,21 @@
-# Dell Readiness Status
+# Dell Ready Status
 
-Last updated: 2026-05-29
+Status: NOT READY FOR MAC CODEX RETIREMENT
 
-## Current State
+Dell-only cutover safe: NO
 
-Dell Codex is active and responding in the `Fix update crash` worker chat.
+## Why
 
-Verified from the Dell Codex status stream:
+Dell has worker/storage setup progress, but the current target is stricter: Dell must operationally mirror Mac Codex until it becomes the only execution Codex.
 
-- AI-ORQUESTRA repo is ready for the next worker step.
-- Private context and connector repo state was reported clean by Dell Codex.
-- WD drive is mounted.
-- Google Drive is mounted.
-- iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
-- WD preservation state remains partially complete.
+## Required Before Ready
 
-## Remaining WD Work
+- Dell can access the private Mac Codex portable mirror on Google Drive.
+- Dell can read Mac Codex config, AGENTS instructions, session index, session titles, and raw transcript folders.
+- Dell verifies every Mac sidebar item listed in `DELL_PROJECT_PARITY.md`.
+- Dell verifies or reports blockers for all connector/tool requirements.
+- Dell updates private `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
 
-- 14 copied files are hash-verified.
-- 1 copied large video remains un-hashed.
-- 3 large source videos totaling about 93.53 GB remain on WD and are not copied yet.
+## Current Instruction
 
-## Current Rule
-
-Do not copy the remaining 93.53 GB videos until the user explicitly decides to spend that storage/time.
-
-Safe next worker action:
-
-1. Hash/verify the already-copied large video.
-2. Refresh the preservation register/report.
-3. Leave the three uncopied large videos as pending decision.
-4. Write durable status when complete.
-
-## Mac Deletion Gate
-
-Do not delete Codex on Mac until Dell is confirmed stable for:
-
-- GitHub access
-- Google Drive access
-- WD drive access
-- Keyboard/input reliability
-- Private context visibility
-- Durable reporting
+Do not delete Mac Codex yet.
