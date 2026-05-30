@@ -88,6 +88,7 @@ Music roots verified earlier still matter:
 
 - WD Elements is currently visible as `D:\`, but it is removable; verify it before continuing WD video copy/hash work.
 - iCloud EGBS folder is visible on Windows but currently materializes folder shells only, with 0 readable files under the locked EGBS tree.
+- Mac-to-Dell direct shell control is not available: SSH, SMB, RDP, and WinRM timed out from Mac to Dell; use Dell local Codex/shell for Dell-side commands.
 - ENCORE is visible to authenticated Git, but the local ENCORE tree has not been committed in this Dell workspace yet.
 - Private ENCORE context is intentionally kept in `.private/`, which is ignored by Git so it cannot be pushed into public AI-ORQUESTRA.
 - Do not move, delete, or rename evidence files without explicit instruction.
