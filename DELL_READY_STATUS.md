@@ -24,6 +24,25 @@ Verified from the latest Dell-side report:
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
 - WD preservation state remains partially complete.
 
+## Mac Codex Mirror Refresh
+
+The private Mac Codex portable mirror was refreshed from the Mac at `2026-05-30T04:51:50Z`.
+
+Current mirror proof:
+
+- Session index rows: 46.
+- Active session transcript files: 17.
+- Archived session transcript files: 15.
+- Current codex mirroring thread transcript is present in the private mirror.
+
+Private proof files:
+
+- `AI-ORQUESTRA/.private/CODEX_MAC_MIRROR/latest/MIRROR_MANIFEST.md`
+- `ENCORE/UMBRELLA_CONTEXT/CODEX_MAC_MIRROR_REFRESH_LAST_RUN.md`
+- `ENCORE/UMBRELLA_CONTEXT/REFRESH_CODEX_MAC_MIRROR_FROM_MAC.sh`
+
+The existing heartbeat monitor now refreshes this mirror before checking the Dell WD hash result.
+
 ## Project Parity Verified On Dell
 
 Dell verified these landing zones in `ENCORE/UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md` at `2026-05-29T19:50:00-06:00` on `DESKTOP-SHHN4FP`:
@@ -89,7 +108,7 @@ The current private cutover audit is:
 
 Current decision: do not delete Mac Codex yet.
 
-Reason: Dell can work from the mirrored state, but Dell-only cutover still requires explicit acceptance or clearing of the remaining cautions.
+Reason: Dell can work from the refreshed mirrored state, but Dell-only cutover still requires explicit acceptance or clearing of the remaining cautions.
 
 ## Remaining WD Work
 
