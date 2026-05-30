@@ -116,6 +116,7 @@ Mac-to-Dell direct shell control is not available from the Mac LAN check. SSH, S
 ## Immediate Checklist
 
 - Read `DELL_NOW.md`, then private `UMBRELLA_CONTEXT/000_DELL_EXECUTE_NOW.txt`.
+- Read private `CODEX_MAC_MIRROR/latest/MIRROR_MANIFEST.md`; it records the latest Mac Codex mirror refresh and current transcript proof.
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`.
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
 - Treat the portable Mac Codex mirror and project source mirror as verified unless a later report says otherwise.
