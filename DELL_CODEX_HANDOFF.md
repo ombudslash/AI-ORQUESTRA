@@ -119,7 +119,7 @@ Use this bridge only for Mac-control tasks that truly need the Mac. The normal s
 - Confirm this file is visible from the Dell.
 - Confirm the Dell can open `AI-ORQUESTRA`, `ENCORE`, and `ENCORE/UMBRELLA_CONTEXT` on GitHub.
 - Treat Dell-to-Mac SSH as already verified unless `DELL_SSH_TO_MAC_TEST.md` becomes stale or contradictory.
-- For the next WD cutover gate, read `UMBRELLA_CONTEXT/DELL_WD_HASH_TASK.md` and run `UMBRELLA_CONTEXT/RUN_DELL_WD_HASH.cmd` on the Dell. If executable extensions are blocked, use `UMBRELLA_CONTEXT/DELL_WD_HASH_LARGE_VIDEO.ps1.txt` from the task file.
+- For the next WD cutover gate, read `UMBRELLA_CONTEXT/DELL_WD_HASH_TASK.md` and run `UMBRELLA_CONTEXT/RUN_DELL_WD_HASH.cmd` on the Dell. If executable extensions are blocked, use `UMBRELLA_CONTEXT/DELL_WD_HASH_COMMAND.txt`.
 - Confirm the Dell can clone or work against GitHub repos when needed.
 - Confirm Google Drive and external drives are visible when expected.
 - Recheck connector/tool parity when starting a new Dell session: GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity/similar coding tools.
