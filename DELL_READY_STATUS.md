@@ -19,6 +19,7 @@ Verified from the latest Dell-side report:
 - Project source mirror is visible from Dell, including Finance Claude Project, AP, AR, AUDIO, REAL ESTATE / OPS, and REAL ESTATE / 9PW SUITE.
 - Dell-to-Mac SSH is verified from Dell, including the `mac-fabians-mbp` alias used by Dell Codex.
 - Dell Codex Settings > Connections > SSH shows one green `mac-fabians-mbp` row.
+- Mac-to-Dell direct shell control is not available from the Mac LAN check: SSH, SMB, RDP, and WinRM timed out; only Windows Delivery Optimization `7680` answered.
 - WD drive, Google Drive, keyboard/input, Git, GitHub connector, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
 - WD preservation state remains partially complete.
@@ -63,6 +64,22 @@ Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`:
 The proof report is private:
 
 - `ENCORE/UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
+
+If Dell Codex Settings > Connections > SSH is missing the row, use the private copy/paste helper:
+
+- `ENCORE/UMBRELLA_CONTEXT/DELL_SSH_VALUES.txt`
+
+Do not type the values through a corrupted Chrome Remote Desktop keyboard path.
+
+## Mac-To-Dell Direct Shell Check
+
+Checked from the Mac at `2026-05-29T22:28:03-0600 MDT`:
+
+- Dell resolved as `desktop-shhn4fp.local` / `192.168.40.86`.
+- SSH `22`, SMB `139/445`, RDP `3389`, and WinRM `5985/5986` timed out.
+- Only port `7680` answered, which is Windows Delivery Optimization and cannot run commands.
+
+Conclusion: Dell-side work must be executed by Dell local Codex or a Dell-local shell, not by Mac SSHing into Dell.
 
 ## Cutover Audit
 
