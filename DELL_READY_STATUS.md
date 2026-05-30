@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-05-30T00:21:38-0600 America/Edmonton
+Last updated: 2026-05-30T00:31:27-0600 America/Edmonton
 
 ## Current State
 
@@ -27,7 +27,7 @@ Verified from the latest Dell-side report:
 
 ## Mac Codex Mirror Refresh
 
-The private Mac Codex portable mirror was refreshed from the Mac at `2026-05-30T06:06:14Z`.
+The private Mac Codex portable mirror was refreshed from the Mac at `2026-05-30T06:31:27Z`.
 
 Current mirror proof:
 
@@ -35,7 +35,7 @@ Current mirror proof:
 - Active session transcript files: 17.
 - Archived session transcript files: 15.
 - Current codex mirroring thread transcript is present in the private mirror.
-- Current codex mirroring transcript size/hash: `165464114` bytes, SHA-256 `a255084fa7c38624955f9acb403a0a2d51baf9bea7c0ed85dbf3f2dfc2e1eb7d`.
+- Current codex mirroring transcript size/hash: `178071817` bytes, SHA-256 `a182d6aab51d37254951c4d7ed0e9d115396bb826b4a10515d1593e1e91baa9e`.
 
 Private proof files:
 
