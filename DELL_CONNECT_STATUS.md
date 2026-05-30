@@ -2,7 +2,7 @@
 
 Status: DELL CODEX UI SSH ROW NOT PROVEN
 
-Last checked: 2026-05-29T23:58:03-0600 MDT
+Last checked: 2026-05-30T00:21:38-0600 MDT
 
 ## What Is Proven
 
@@ -24,10 +24,17 @@ Last checked: 2026-05-29T23:58:03-0600 MDT
 ## Latest Mac Attempt
 
 - Chrome Remote Desktop session tab reported `Connected`.
-- Chrome automation saw only a black remote canvas.
-- Live Mac screen capture also returned black.
+- Chrome automation could claim the `DESKTOP-SHHN4FP` Remote Desktop tab, but the remote canvas still rendered black to automation.
+- Current Mac screen capture shows the Mac lock screen, not the Dell UI.
+- Direct GUI control is therefore unsafe; do not blind-click or blind-type into the Dell Codex Connections page from the Mac.
 - LAN check still found only Windows Delivery Optimization port `7680` open on the Dell.
 - SSH `22`, SMB `139/445`, RDP `3389`, and WinRM `5985/5986` are not available from the Mac.
+
+## Connection Layer Status
+
+- OS-level Dell-to-Mac SSH is already verified through alias `mac-fabians-mbp`.
+- The missing layer is only the Dell Codex Settings > Connections > SSH saved profile row.
+- The Dell-local UI profile should be added from Dell Codex using the staged values below or from `DELL_CODEX_SSH_CONNECTION_NOW.md`.
 
 ## Required Dell-Local Action
 
