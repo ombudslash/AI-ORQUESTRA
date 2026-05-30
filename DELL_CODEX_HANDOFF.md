@@ -105,9 +105,9 @@ Dell-to-Mac SSH is verified from `DESKTOP-SHHN4FP`.
 
 - Direct target: `efd@192.168.40.34`
 - Alias target: `mac-fabians-mbp`
-- Codex UI: Settings > Connections > SSH has one green `mac-fabians-mbp` row.
+- Codex UI: Settings > Connections > SSH profile visibility needs fresh proof; a later live screenshot showed no saved SSH connections visible.
 - Proof report: `UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
-- If the Codex UI row is missing, use `UMBRELLA_CONTEXT/DELL_SSH_VALUES.txt` and copy/paste locally on Dell.
+- If the Codex UI row is missing, use `UMBRELLA_CONTEXT/DELL_CODEX_SSH_CONNECTION_NOW.md` and copy/paste locally on Dell.
 
 Use this bridge only for Mac-control tasks that truly need the Mac. The normal source of truth remains GitHub plus Google Drive.
 
@@ -116,6 +116,7 @@ Mac-to-Dell direct shell control is not available from the Mac LAN check. SSH, S
 ## Immediate Checklist
 
 - Read `DELL_NOW.md`, then private `UMBRELLA_CONTEXT/000_DELL_EXECUTE_NOW.txt`.
+- Run `UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES.cmd` or the `RUN_DELL_MIRROR_GATES.ps1.txt` fallback.
 - Read private `CODEX_MAC_MIRROR/latest/MIRROR_MANIFEST.md`; it records the latest Mac Codex mirror refresh and current transcript proof.
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_MATRIX.md`.
 - Read `UMBRELLA_CONTEXT/DELL_PROJECT_ACCESS_VERIFICATION.md`.
@@ -124,7 +125,7 @@ Mac-to-Dell direct shell control is not available from the Mac LAN check. SSH, S
 - Confirm this file is visible from the Dell.
 - Confirm the Dell can open `AI-ORQUESTRA`, `ENCORE`, and `ENCORE/UMBRELLA_CONTEXT` on GitHub.
 - Treat Dell-to-Mac SSH as already verified unless `DELL_SSH_TO_MAC_TEST.md` becomes stale or contradictory.
-- For the next WD cutover gate, read `UMBRELLA_CONTEXT/DELL_WD_HASH_TASK.md` and run `UMBRELLA_CONTEXT/RUN_DELL_WD_HASH.cmd` on the Dell. If executable extensions are blocked, use `UMBRELLA_CONTEXT/DELL_WD_HASH_COMMAND.txt`.
+- For the next cutover gate, run `UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES.cmd` on the Dell. If executable extensions are blocked, use `UMBRELLA_CONTEXT/RUN_DELL_MIRROR_GATES_COMMAND.txt` or `RUN_DELL_MIRROR_GATES.ps1.txt`.
 - Confirm the Dell can clone or work against GitHub repos when needed.
 - Confirm Google Drive and external drives are visible when expected.
 - Recheck connector/tool parity when starting a new Dell session: GitHub/git, Google Drive, Gmail, Notion, Browser, Chrome, computer use, Documents, Spreadsheets, Presentations, legal/data/engineering/productivity skills, and Antigravity/similar coding tools.
