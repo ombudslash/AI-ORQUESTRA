@@ -4,7 +4,7 @@ Status: DELL LOCAL EXECUTION REQUIRED
 
 Dell worker target: `DESKTOP-SHHN4FP`
 
-Current priority: run the private Dell WD hash gate and write the result report.
+Current priority: restore the Dell Codex SSH profile to the Mac, then run the private Dell WD hash gate and write the result report.
 
 ## Start Here
 
@@ -20,6 +20,12 @@ Read first:
 000_DELL_EXECUTE_NOW.txt
 ```
 
+For the immediate Mac SSH connection values, read:
+
+```text
+DELL_CODEX_SSH_CONNECTION_NOW.md
+```
+
 If Dell Codex is idle, paste the prompt from:
 
 ```text
@@ -31,6 +37,8 @@ If Dell Codex is idle, paste the prompt from:
 Do not wait for Mac-to-Dell SSH. The Mac checked the Dell LAN address and SSH, SMB, RDP, and WinRM are not open.
 
 Dell-side work must run locally on the Dell through Dell Codex or Dell PowerShell.
+
+OS-level Dell-to-Mac SSH was already verified. The current missing piece is the Dell Codex Settings > Connections > SSH profile row if the UI shows no saved SSH connections.
 
 ## Expected Proof
 
