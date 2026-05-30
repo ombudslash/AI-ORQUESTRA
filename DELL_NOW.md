@@ -41,3 +41,13 @@ DELL_WD_HASH_LAST_RUN.md
 ```
 
 Mac Codex should not be deleted until the cutover audit is updated after that result is reviewed.
+
+## Mirror Freshness
+
+The Mac-side monitor refreshes the private Codex mirror before checking this gate. Dell can inspect:
+
+```text
+C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest\MIRROR_MANIFEST.md
+```
+
+That manifest is the current proof that Mac Codex config, instructions, chat index, and raw transcripts were copied into the private mirror.
