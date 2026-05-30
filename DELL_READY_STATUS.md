@@ -1,10 +1,10 @@
 # Dell Ready Status
 
-Status: PROJECT PARITY VERIFIED WITH CAUTIONS
+Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-05-29 America/Edmonton
+Last updated: 2026-05-29T21:08:43-0600 America/Edmonton
 
 ## Current State
 
@@ -17,6 +17,8 @@ Verified from the latest Dell-side report:
 - Portable Mac Codex mirror is visible from the Dell Google Drive workspace.
 - Dell can read Mac Codex config, AGENTS instructions, session index, session titles, and raw transcript folders.
 - Project source mirror is visible from Dell, including Finance Claude Project, AP, AR, AUDIO, REAL ESTATE / OPS, and REAL ESTATE / 9PW SUITE.
+- Dell-to-Mac SSH is verified from Dell, including the `mac-fabians-mbp` alias used by Dell Codex.
+- Dell Codex Settings > Connections > SSH shows one green `mac-fabians-mbp` row.
 - WD drive, Google Drive, keyboard/input, Git, GitHub connector, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
 - WD preservation state remains partially complete.
@@ -46,6 +48,21 @@ Dell paths:
 - iCloud EGBS is still a Windows materialization problem; use Google Drive/ENCORE as the working source.
 - WD drive paths are removable and must be rechecked before any WD copy/hash job.
 - Native Codex sidebar/chat UI is not treated as synced state. The portable mirror plus GitHub/Drive files are the source of truth.
+
+## Dell-To-Mac SSH Verified
+
+Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`:
+
+- Direct target: `efd@192.168.40.34`
+- Alias target: `mac-fabians-mbp`
+- Result: `SSH_OK` and `SSH_ALIAS_OK`
+- Remote host: `Fabians-MBP.lan`
+- Remote user: `efd`
+- Remote working directory: `/Users/efd`
+
+The proof report is private:
+
+- `ENCORE/UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
 
 ## Remaining WD Work
 
