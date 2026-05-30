@@ -64,6 +64,16 @@ The proof report is private:
 
 - `ENCORE/UMBRELLA_CONTEXT/DELL_SSH_TO_MAC_TEST.md`
 
+## Cutover Audit
+
+The current private cutover audit is:
+
+- `ENCORE/UMBRELLA_CONTEXT/DELL_CUTOVER_AUDIT.md`
+
+Current decision: do not delete Mac Codex yet.
+
+Reason: Dell can work from the mirrored state, but Dell-only cutover still requires explicit acceptance or clearing of the remaining cautions.
+
 ## Remaining WD Work
 
 - 14 copied files are hash-verified.
