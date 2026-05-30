@@ -27,7 +27,6 @@ This file is the Dell-facing working map for execution, storage, indexing, and u
 - Local punctuation smoke test passed exactly: `keyboard test: []{} ;:'",.<>/?\| @#$%^&*()`
 - Avoid complex command typing through Chrome Remote Desktop unless this smoke test still passes.
 
-
 ## Mac Codex Portable Mirror
 
 - Expected Dell mirror path: `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest`

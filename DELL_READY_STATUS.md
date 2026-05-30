@@ -1,10 +1,10 @@
-# Dell Readiness Status
-
-Last updated: 2026-05-29
+# Dell Ready Status
 
 Status: NOT READY FOR MAC CODEX RETIREMENT
 
 Dell-only cutover safe: NO
+
+Last updated: 2026-05-29
 
 ## Current State
 
@@ -37,6 +37,8 @@ Verified from Dell-side checks:
 - 3 large source videos totaling about 93.53 GB remain on WD and are not copied yet.
 
 ## Current Rule
+
+Do not delete Mac Codex yet.
 
 Do not copy the remaining 93.53 GB videos until the user explicitly decides to spend that storage/time.
 
