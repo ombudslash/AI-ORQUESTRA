@@ -22,19 +22,21 @@ Verified from the last Dell-side report:
 
 ## New Landing Zones To Reverify
 
-Google Drive now contains exact project mirror landing zones for the Mac-only/sidebar labels that were previously unresolved:
+Google Drive now contains exact project landing zones for the Mac-only/sidebar labels that were previously unresolved:
 
 - `AI-ORQUESTRA/.private/PROJECT_SOURCE_MIRROR`
 - `PROJECT_SOURCE_MIRROR/Finance Claude Project`
 - `PROJECT_SOURCE_MIRROR/Finance Claude Project/AP`
 - `PROJECT_SOURCE_MIRROR/Finance Claude Project/AR`
-- `PROJECT_SOURCE_MIRROR/REAL ESTATE/OPS`
-- `PROJECT_SOURCE_MIRROR/REAL ESTATE/9PW SUITE`
 - `PROJECT_SOURCE_MIRROR/AUDIO`
+- `REAL ESTATE/OPS`
+- `REAL ESTATE/9PW SUITE`
 
-Expected Dell base path:
+Expected Dell paths:
 
-`C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
+- `C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\PROJECT_SOURCE_MIRROR`
+- `C:\Users\ezequ\My Drive\REAL ESTATE\OPS`
+- `C:\Users\ezequ\My Drive\REAL ESTATE\9PW SUITE`
 
 ## Required Before Ready
 
