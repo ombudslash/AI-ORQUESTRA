@@ -1,40 +1,40 @@
 # Dell Connect Status
 
-Status: DELL CODEX UI SSH ROW NOT PROVEN
+Status: DELL PROOF REPORTS ABSENT; OLD LAN ADDRESS STALE
 
-Last checked: 2026-05-30T00:21:38-0600 MDT
+Last checked: 2026-06-03T09:39:38-0600 MDT
 
 ## What Is Proven
 
-- Dell worker target is `DESKTOP-SHHN4FP`.
-- Dell LAN address is `192.168.40.86`.
-- Mac LAN address is `192.168.40.34`.
+- Dell worker target remains `DESKTOP-SHHN4FP`.
 - Dell-to-Mac OS-level SSH was previously verified from the Dell with alias `mac-fabians-mbp`.
 - Shared continuity is available through GitHub, Google Drive, the private umbrella context, and the refreshed Mac Codex mirror.
+- The Mac Codex portable mirror was refreshed on 2026-06-03 at `2026-06-03T15:37:51Z`.
+- The active codex mirroring transcript is listed in the private mirror manifest.
+
+## Current Mirror Proof
+
+- Session index rows: 49.
+- Active session transcript files: 20.
+- Archived session transcript files: 15.
+- Current codex mirroring transcript: `sessions/2026/05/27/rollout-2026-05-27T17-10-16-019e6bb3-f4bb-7ef0-bba5-a9d8aae1b9cd.jsonl`.
+- Current transcript size/hash: `188930925` bytes, SHA-256 `8158f72993a4cfcaa9bc6b2cdcc4bf9b3c8370b824d4c921f91d0b97450c5440`.
 
 ## What Is Not Proven
 
+- `DELL_MIRROR_GATES_LAST_RUN.md` is absent locally and was not found in Google Drive.
+- `DELL_CODEX_SSH_CONNECTION_LAST_RUN.md` is absent locally and was not found in Google Drive.
+- `DELL_WD_HASH_LAST_RUN.md` is absent locally and was not found in Google Drive.
 - Dell Codex Settings > Connections > SSH still does not have a verified saved UI row.
-- Mac cannot open a direct command channel into the Dell right now.
-- The latest proof files from the Dell mirror gate runner are still absent:
-  - `DELL_CODEX_SSH_CONNECTION_LAST_RUN.md`
-  - `DELL_WD_HASH_LAST_RUN.md`
-  - `DELL_MIRROR_GATES_LAST_RUN.md`
+- The Dell WD hash worker has not produced a current result report.
+- Dell-only cutover is not safe.
 
 ## Latest Mac Attempt
 
-- Chrome Remote Desktop session tab reported `Connected`.
-- Chrome automation could claim the `DESKTOP-SHHN4FP` Remote Desktop tab, but the remote canvas still rendered black to automation.
-- Current Mac screen capture shows the Mac lock screen, not the Dell UI.
-- Direct GUI control is therefore unsafe; do not blind-click or blind-type into the Dell Codex Connections page from the Mac.
-- LAN check still found only Windows Delivery Optimization port `7680` open on the Dell.
-- SSH `22`, SMB `139/445`, RDP `3389`, and WinRM `5985/5986` are not available from the Mac.
-
-## Connection Layer Status
-
-- OS-level Dell-to-Mac SSH is already verified through alias `mac-fabians-mbp`.
-- The missing layer is only the Dell Codex Settings > Connections > SSH saved profile row.
-- The Dell-local UI profile should be added from Dell Codex using the staged values below or from `DELL_CODEX_SSH_CONNECTION_NOW.md`.
+- Current Mac LAN address is `172.16.88.25`.
+- The old Dell address `192.168.40.86` is no longer reachable from this Mac; ports `22`, `139`, `445`, `3389`, `5985`, `5986`, and `7680` are closed from the current network.
+- Current ARP-visible peers are on `172.16.88.x`; no peer exposed SSH, SMB, RDP, WinRM, or the prior `7680` signal during the latest probe.
+- Chrome Remote Desktop remains the only known remote UI route, but prior automation saw a black remote canvas, so blind clicking/typing is still unsafe.
 
 ## Required Dell-Local Action
 
@@ -55,9 +55,11 @@ If the Dell Codex SSH UI still shows no saved connection, add the profile using:
 
 ```text
 Display name: Mac Fabians-MBP
-Hostname: efd@192.168.40.34
+Hostname: efd@172.16.88.25
 Port: 22
 Identity/private key: C:\Users\ezequ\.ssh\dell_to_mac_ed25519
 ```
+
+Use the current Mac LAN IP above only while the Mac remains on this network. If the Mac network changes, refresh this status before adding a new profile.
 
 Do not delete Mac Codex until the three proof files exist and the cutover audit is updated.

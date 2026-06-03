@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-05-30T00:31:27-0600 America/Edmonton
+Last updated: 2026-06-03T09:39:38-0600 America/Edmonton
 
 ## Current State
 
@@ -27,15 +27,15 @@ Verified from the latest Dell-side report:
 
 ## Mac Codex Mirror Refresh
 
-The private Mac Codex portable mirror was refreshed from the Mac at `2026-05-30T06:31:27Z`.
+The private Mac Codex portable mirror was refreshed from the Mac at `2026-06-03T15:37:51Z`.
 
 Current mirror proof:
 
-- Session index rows: 46.
-- Active session transcript files: 17.
+- Session index rows: 49.
+- Active session transcript files: 20.
 - Archived session transcript files: 15.
 - Current codex mirroring thread transcript is present in the private mirror.
-- Current codex mirroring transcript size/hash: `178071817` bytes, SHA-256 `a182d6aab51d37254951c4d7ed0e9d115396bb826b4a10515d1593e1e91baa9e`.
+- Current codex mirroring transcript size/hash: `188930925` bytes, SHA-256 `8158f72993a4cfcaa9bc6b2cdcc4bf9b3c8370b824d4c921f91d0b97450c5440`.
 
 Private proof files:
 
@@ -97,9 +97,10 @@ Do not type the values through a corrupted Chrome Remote Desktop keyboard path.
 
 Checked from the Mac at `2026-05-29T22:28:03-0600 MDT`:
 
-- Dell resolved as `desktop-shhn4fp.local` / `192.168.40.86`.
-- SSH `22`, SMB `139/445`, RDP `3389`, and WinRM `5985/5986` timed out.
-- Only port `7680` answered, which is Windows Delivery Optimization and cannot run commands.
+- Previous Dell address was `desktop-shhn4fp.local` / `192.168.40.86` on 2026-05-29.
+- Current Mac network is `172.16.88.x`; Mac address is `172.16.88.25`.
+- On 2026-06-03, old Dell address `192.168.40.86` no longer answered on SSH `22`, SMB `139/445`, RDP `3389`, WinRM `5985/5986`, or `7680`.
+- Current ARP-visible `172.16.88.x` peers did not expose SSH, SMB, RDP, WinRM, or the previous `7680` signal during the latest probe.
 
 Conclusion: Dell-side work must be executed by Dell local Codex or a Dell-local shell, not by Mac SSHing into Dell.
 
