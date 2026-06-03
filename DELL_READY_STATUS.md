@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-06-03T09:50:26-0600 America/Edmonton
+Last updated: 2026-06-03T10:15:34-0600 America/Edmonton
 
 ## Current State
 
@@ -20,7 +20,7 @@ Verified from the latest Dell-side report:
 - Dell-to-Mac OS SSH is verified from Dell, including the `mac-fabians-mbp` alias.
 - Dell Codex Settings > Connections > SSH profile visibility needs fresh proof; a later live screenshot showed no saved SSH connections visible.
 - Latest Mac attempt could claim the Chrome Remote Desktop tab but still saw a black remote canvas, and the Mac screen is currently locked. Remote UI setup is therefore unsafe from Mac automation.
-- Mac-to-Dell direct shell control is not available from the Mac LAN check: SSH, SMB, RDP, and WinRM timed out; only Windows Delivery Optimization `7680` answered.
+- Mac-to-Dell direct shell control is not available from the current Mac LAN check.
 - WD drive, Google Drive, keyboard/input, Git, GitHub connector, Gmail, Notion, Browser, Chrome, Documents, Spreadsheets, Presentations, legal research, local runtimes, and Antigravity were verified or detected.
 - iCloud EGBS remains a blocker: visible folder state, but 0 materialized readable files.
 - WD preservation state remains partially complete.
@@ -75,7 +75,7 @@ Dell paths:
 
 Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`; the Mac has since moved to a different LAN address:
 
-- Current target for new Dell Codex SSH profile work: `efd@172.16.88.25`
+- Current target for new Dell Codex SSH profile work: `efd@192.168.100.19`
 - Historical verified direct target: `efd@192.168.40.34`
 - Alias target: `mac-fabians-mbp`
 - Current runner: `RUN_DELL_MIRROR_GATES.cmd` or `RUN_DELL_MIRROR_GATES.ps1.txt`
@@ -96,12 +96,12 @@ Do not type the values through a corrupted Chrome Remote Desktop keyboard path.
 
 ## Mac-To-Dell Direct Shell Check
 
-Checked from the Mac at `2026-05-29T22:28:03-0600 MDT`:
+Checked from the Mac at `2026-06-03T10:15:34-0600 MDT`:
 
 - Previous Dell address was `desktop-shhn4fp.local` / `192.168.40.86` on 2026-05-29.
-- Current Mac network is `172.16.88.x`; Mac address is `172.16.88.25`.
-- On 2026-06-03, old Dell address `192.168.40.86` no longer answered on SSH `22`, SMB `139/445`, RDP `3389`, WinRM `5985/5986`, or `7680`.
-- Current ARP-visible `172.16.88.x` peers did not expose SSH, SMB, RDP, WinRM, or the previous `7680` signal during the latest probe.
+- Current Mac network is `192.168.100.x`; Mac address is `192.168.100.19`.
+- On 2026-06-03, old Dell address `192.168.40.86` was no longer routable from the current Mac network.
+- Current ARP-visible `192.168.100.x` peers did not expose SSH, SMB, RDP, WinRM, or the previous Windows Delivery Optimization `7680` signal during the latest probe.
 
 Conclusion: Dell-side work must be executed by Dell local Codex or a Dell-local shell, not by Mac SSHing into Dell.
 

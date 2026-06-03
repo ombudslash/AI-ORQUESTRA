@@ -2,7 +2,7 @@
 
 Status: DELL PROOF REPORTS ABSENT; OLD LAN ADDRESS STALE
 
-Last checked: 2026-06-03T09:50:26-0600 MDT
+Last checked: 2026-06-03T10:15:34-0600 MDT
 
 ## What Is Proven
 
@@ -31,9 +31,9 @@ Last checked: 2026-06-03T09:50:26-0600 MDT
 
 ## Latest Mac Attempt
 
-- Current Mac LAN address is `172.16.88.25`.
-- The old Dell address `192.168.40.86` is no longer reachable from this Mac; ports `22`, `139`, `445`, `3389`, `5985`, `5986`, and `7680` are closed from the current network.
-- Current ARP-visible peers are on `172.16.88.x`; no peer exposed SSH, SMB, RDP, WinRM, or the prior `7680` signal during the latest probe.
+- Current Mac LAN address is `192.168.100.19`.
+- The old Dell address `192.168.40.86` is no longer routable from this Mac on the current network.
+- Current ARP-visible peers are on `192.168.100.x`; no peer exposed SSH, SMB, RDP, WinRM, or the prior Windows Delivery Optimization `7680` signal during the latest probe.
 - Chrome Remote Desktop remains the only known remote UI route, but prior automation saw a black remote canvas, so blind clicking/typing is still unsafe.
 
 ## Required Dell-Local Action
@@ -55,7 +55,7 @@ If the Dell Codex SSH UI still shows no saved connection, add the profile using:
 
 ```text
 Display name: Mac Fabians-MBP
-Hostname: efd@172.16.88.25
+Hostname: efd@192.168.100.19
 Port: 22
 Identity/private key: C:\Users\ezequ\.ssh\dell_to_mac_ed25519
 ```
