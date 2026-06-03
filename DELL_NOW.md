@@ -83,4 +83,4 @@ C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest\MIRROR_MAN
 
 That manifest is the current proof that Mac Codex config, instructions, chat index, and raw transcripts were copied into the private mirror.
 
-Latest refresh from Mac: `2026-06-03T15:37:51Z`.
+Latest refresh from Mac: `2026-06-03T15:50:26Z`.

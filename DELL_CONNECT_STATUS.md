@@ -2,14 +2,14 @@
 
 Status: DELL PROOF REPORTS ABSENT; OLD LAN ADDRESS STALE
 
-Last checked: 2026-06-03T09:39:38-0600 MDT
+Last checked: 2026-06-03T09:50:26-0600 MDT
 
 ## What Is Proven
 
 - Dell worker target remains `DESKTOP-SHHN4FP`.
 - Dell-to-Mac OS-level SSH was previously verified from the Dell with alias `mac-fabians-mbp`.
 - Shared continuity is available through GitHub, Google Drive, the private umbrella context, and the refreshed Mac Codex mirror.
-- The Mac Codex portable mirror was refreshed on 2026-06-03 at `2026-06-03T15:37:51Z`.
+- The Mac Codex portable mirror was refreshed on 2026-06-03 at `2026-06-03T15:50:26Z`.
 - The active codex mirroring transcript is listed in the private mirror manifest.
 
 ## Current Mirror Proof
@@ -18,7 +18,7 @@ Last checked: 2026-06-03T09:39:38-0600 MDT
 - Active session transcript files: 20.
 - Archived session transcript files: 15.
 - Current codex mirroring transcript: `sessions/2026/05/27/rollout-2026-05-27T17-10-16-019e6bb3-f4bb-7ef0-bba5-a9d8aae1b9cd.jsonl`.
-- Current transcript size/hash: `188930925` bytes, SHA-256 `8158f72993a4cfcaa9bc6b2cdcc4bf9b3c8370b824d4c921f91d0b97450c5440`.
+- Current transcript size/hash: `189627236` bytes, SHA-256 `e9733ccc13854bbede85a15da59b76f8293520197f58e41e7f963520f4908b06`.
 
 ## What Is Not Proven
 

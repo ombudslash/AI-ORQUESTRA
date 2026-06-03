@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-06-03T09:39:38-0600 America/Edmonton
+Last updated: 2026-06-03T09:50:26-0600 America/Edmonton
 
 ## Current State
 
@@ -27,7 +27,7 @@ Verified from the latest Dell-side report:
 
 ## Mac Codex Mirror Refresh
 
-The private Mac Codex portable mirror was refreshed from the Mac at `2026-06-03T15:37:51Z`.
+The private Mac Codex portable mirror was refreshed from the Mac at `2026-06-03T15:50:26Z`.
 
 Current mirror proof:
 
@@ -35,7 +35,7 @@ Current mirror proof:
 - Active session transcript files: 20.
 - Archived session transcript files: 15.
 - Current codex mirroring thread transcript is present in the private mirror.
-- Current codex mirroring transcript size/hash: `188930925` bytes, SHA-256 `8158f72993a4cfcaa9bc6b2cdcc4bf9b3c8370b824d4c921f91d0b97450c5440`.
+- Current codex mirroring transcript size/hash: `189627236` bytes, SHA-256 `e9733ccc13854bbede85a15da59b76f8293520197f58e41e7f963520f4908b06`.
 
 Private proof files:
 
@@ -73,9 +73,10 @@ Dell paths:
 
 ## Dell-To-Mac SSH Verified
 
-Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`:
+Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`; the Mac has since moved to a different LAN address:
 
-- Direct target: `efd@192.168.40.34`
+- Current target for new Dell Codex SSH profile work: `efd@172.16.88.25`
+- Historical verified direct target: `efd@192.168.40.34`
 - Alias target: `mac-fabians-mbp`
 - Current runner: `RUN_DELL_MIRROR_GATES.cmd` or `RUN_DELL_MIRROR_GATES.ps1.txt`
 - Result: `SSH_OK` and `SSH_ALIAS_OK`
