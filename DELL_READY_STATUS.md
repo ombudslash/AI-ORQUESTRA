@@ -4,7 +4,7 @@ Status: PROJECT PARITY AND DELL-TO-MAC SSH VERIFIED WITH CAUTIONS
 
 Dell-only cutover safe: NO until the remaining cautions are explicitly accepted or cleared.
 
-Last updated: 2026-06-03T10:15:34-0600 America/Edmonton
+Last updated: 2026-06-05T20:32:20-0600 America/Edmonton
 
 ## Current State
 
@@ -27,15 +27,15 @@ Verified from the latest Dell-side report:
 
 ## Mac Codex Mirror Refresh
 
-The private Mac Codex portable mirror was refreshed from the Mac at `2026-06-03T15:50:26Z`.
+The private Mac Codex portable mirror was refreshed from the Mac at `2026-06-06T02:31:53Z`.
 
 Current mirror proof:
 
-- Session index rows: 49.
+- Session index rows: 50.
 - Active session transcript files: 20.
-- Archived session transcript files: 15.
+- Archived session transcript files: 16.
 - Current codex mirroring thread transcript is present in the private mirror.
-- Current codex mirroring transcript size/hash: `189627236` bytes, SHA-256 `e9733ccc13854bbede85a15da59b76f8293520197f58e41e7f963520f4908b06`.
+- Current codex mirroring transcript size/hash: `191461825` bytes, SHA-256 `29e38cc6364d02da801ccfa4170d811f788b6074aebdd2f44b48fcbd2781220e`.
 
 Private proof files:
 
@@ -75,7 +75,7 @@ Dell paths:
 
 Verified from Dell on `DESKTOP-SHHN4FP` at `2026-05-29T21:03:08-06:00`; the Mac has since moved to a different LAN address:
 
-- Current target for new Dell Codex SSH profile work: `efd@192.168.100.19`
+- Current target for new Dell Codex SSH profile work: `efd@192.168.40.159`
 - Historical verified direct target: `efd@192.168.40.34`
 - Alias target: `mac-fabians-mbp`
 - Current runner: `RUN_DELL_MIRROR_GATES.cmd` or `RUN_DELL_MIRROR_GATES.ps1.txt`
@@ -96,12 +96,12 @@ Do not type the values through a corrupted Chrome Remote Desktop keyboard path.
 
 ## Mac-To-Dell Direct Shell Check
 
-Checked from the Mac at `2026-06-03T10:15:34-0600 MDT`:
+Checked from the Mac at `2026-06-05T16:12:40-0600 MDT`:
 
 - Previous Dell address was `desktop-shhn4fp.local` / `192.168.40.86` on 2026-05-29.
-- Current Mac network is `192.168.100.x`; Mac address is `192.168.100.19`.
-- On 2026-06-03, old Dell address `192.168.40.86` was no longer routable from the current Mac network.
-- Current ARP-visible `192.168.100.x` peers did not expose SSH, SMB, RDP, WinRM, or the previous Windows Delivery Optimization `7680` signal during the latest probe.
+- Current Mac network is `192.168.40.x`; Mac address is `192.168.40.159`.
+- On 2026-06-05, Dell resolved as `desktop-shhn4fp.local` / `192.168.40.242`.
+- The `192.168.40.242` probe did not answer ping and exposed only Windows Delivery Optimization `7680`; SSH, SMB, RDP, and WinRM were closed during the latest check.
 
 Conclusion: Dell-side work must be executed by Dell local Codex or a Dell-local shell, not by Mac SSHing into Dell.
 
