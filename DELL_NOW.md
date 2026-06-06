@@ -6,7 +6,7 @@ Dell worker target: `DESKTOP-SHHN4FP`
 
 Current priority: restore the Dell Codex SSH profile to the Mac, then run the private Dell WD hash gate and write the result report.
 
-Latest connect attempt: see `DELL_CONNECT_STATUS.md`. The Mac still cannot open a direct command channel into the Dell; the old `192.168.40.86` Dell address is stale from the current Mac network, and prior Chrome Remote Desktop automation saw a black remote canvas.
+Latest connect attempt: see `DELL_CONNECT_STATUS.md`. The Mac found Dell at `desktop-shhn4fp.local` / `192.168.40.242`, but it only exposes `7680`; ping, SSH, SMB, RDP, and WinRM are unavailable. Prior Chrome Remote Desktop automation saw a black remote canvas.
 
 ## Start Here
 
@@ -55,7 +55,7 @@ If Dell Codex is idle, paste the prompt from:
 
 ## Routing
 
-Do not wait for Mac-to-Dell SSH. The Mac rechecked the old Dell LAN address on 2026-06-03 and SSH, SMB, RDP, WinRM, and the previous `7680` signal are not open from the current Mac network.
+Do not wait for Mac-to-Dell SSH. The Mac resolved `desktop-shhn4fp.local` to `192.168.40.242` on 2026-06-05; only `7680` is open, and ping, SSH, SMB, RDP, and WinRM are unavailable.
 
 Dell-side work must run locally on the Dell through Dell Codex or Dell PowerShell.
 
@@ -83,4 +83,4 @@ C:\Users\ezequ\My Drive\AI-ORQUESTRA\.private\CODEX_MAC_MIRROR\latest\MIRROR_MAN
 
 That manifest is the current proof that Mac Codex config, instructions, chat index, and raw transcripts were copied into the private mirror.
 
-Latest refresh from Mac: `2026-06-03T15:50:26Z`.
+Latest refresh from Mac: `2026-06-06T02:31:53Z`.
